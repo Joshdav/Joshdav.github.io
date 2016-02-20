@@ -16,9 +16,27 @@ window.onload = function() {
    		if (cookiearr[i].trim() == "achievementcapeclick=true") {
    			$('.achievementcape').css('opacity', '1');
    		}
+      if (cookiearr[i].trim() == "musiccapeclick=true") {
+        $('.musiccape').css('opacity', '1');
+      }
    		if (cookiearr[i].trim() == "maxcapeclick=true") {
    			$('.maxcape').css('opacity', '1');
    		}
+      if (cookiearr[i].trim() == "dragonfullhelmclick=true") {
+        $('.dragonfullhelm').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "dragonchainbodyclick=true") {
+        $('.dragonchainbody').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "dragonplatelegsclick=true") {
+        $('.dragonplatelegs').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "dragonplateskirtclick=true") {
+        $('.dragonplateskirt').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "dragonsqshieldclick=true") {
+        $('.dragonsqshield').css('opacity', '1');
+      }
    	}
 }
 
@@ -75,6 +93,23 @@ var main = function() {
         }
 	});
 
+  $('.musiccape').click(function(){
+    if ($(this).css('opacity') == '1') {
+          $(this).animate({'opacity':0.4}, 175);
+          var d = new Date();
+          d.setTime(d.getTime() + (24*60*60*1000));
+        var expires = "expires="+d.toUTCString();
+          document.cookie = "musiccapeclick=false;" + expires + ";";
+    }
+        else {
+          $(this).animate({'opacity':1}, 175);
+          var d = new Date();
+          d.setTime(d.getTime() + (24*60*60*1000));
+        var expires = "expires="+d.toUTCString();
+          document.cookie = "musiccapeclick=true;" + expires + ";";
+        }
+  });
+
 	$('.maxcape').click(function(){
 		if ($(this).css('opacity') == '1') {
         	$(this).animate({'opacity':0.4}, 175);
@@ -91,5 +126,90 @@ var main = function() {
         	document.cookie = "maxcapeclick=true;" + expires + ";";
         }
 	});
+
+  $('.dragonfullhelm').click(function(){
+    if ($(this).css('opacity') == '1') {
+          $(this).animate({'opacity':0.4}, 175);
+          var d = new Date();
+          d.setTime(d.getTime() + (24*60*60*1000));
+        var expires = "expires="+d.toUTCString();
+          document.cookie = "dragonfullhelmclick=false;" + expires + ";";
+    }
+        else {
+          $(this).animate({'opacity':1}, 175);
+          var d = new Date();
+          d.setTime(d.getTime() + (24*60*60*1000));
+        var expires = "expires="+d.toUTCString();
+          document.cookie = "dragonfullhelmclick=true;" + expires + ";";
+        }
+  });
+
+  $('.dragonchainbody').click(function(){
+    if ($(this).css('opacity') == '1') {
+          $(this).animate({'opacity':0.4}, 175);
+          var d = new Date();
+          d.setTime(d.getTime() + (24*60*60*1000));
+        var expires = "expires="+d.toUTCString();
+          document.cookie = "dragonchainbodyclick=false;" + expires + ";";
+    }
+        else {
+          $(this).animate({'opacity':1}, 175);
+          var d = new Date();
+          d.setTime(d.getTime() + (24*60*60*1000));
+        var expires = "expires="+d.toUTCString();
+          document.cookie = "dragonchainbodyclick=true;" + expires + ";";
+        }
+  });
+
+  $('.dragonplatelegs').click(function(){
+    if ($(this).css('opacity') == '1') {
+          $(this).animate({'opacity':0.4}, 175);
+          var d = new Date();
+          d.setTime(d.getTime() + (24*60*60*1000));
+        var expires = "expires="+d.toUTCString();
+          document.cookie = "dragonplatelegsclick=false;" + expires + ";";
+    }
+        else {
+          $(this).animate({'opacity':1}, 175);
+          var d = new Date();
+          d.setTime(d.getTime() + (24*60*60*1000));
+        var expires = "expires="+d.toUTCString();
+          document.cookie = "dragonplatelegsclick=true;" + expires + ";";
+        }
+  });
+
+  $('.dragonplateskirt').click(function(){
+    if ($(this).css('opacity') == '1') {
+          $(this).animate({'opacity':0.4}, 175);
+          var d = new Date();
+          d.setTime(d.getTime() + (24*60*60*1000));
+        var expires = "expires="+d.toUTCString();
+          document.cookie = "dragonplateskirtclick=false;" + expires + ";";
+    }
+        else {
+          $(this).animate({'opacity':1}, 175);
+          var d = new Date();
+          d.setTime(d.getTime() + (24*60*60*1000));
+        var expires = "expires="+d.toUTCString();
+          document.cookie = "dragonplateskirtclick=true;" + expires + ";";
+        }
+  });
+
+  $('.dragonsqshield').click(function(){
+    if ($(this).css('opacity') == '1') {
+          $(this).animate({'opacity':0.4}, 175);
+          var d = new Date();
+          d.setTime(d.getTime() + (24*60*60*1000));
+        var expires = "expires="+d.toUTCString();
+          document.cookie = "dragonsqshieldclick=false;" + expires + ";";
+    }
+        else {
+          $(this).animate({'opacity':1}, 175);
+          var d = new Date();
+          d.setTime(d.getTime() + (24*60*60*1000));
+        var expires = "expires="+d.toUTCString();
+          document.cookie = "dragonsqshieldclick=true;" + expires + ";";
+        }
+  });
 }
 $(document).ready(main);

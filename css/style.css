@@ -9,7 +9,7 @@ h1 {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	color: white !important;
+	color: #fefefe !important;
 }
 
 .jumbotron  {
@@ -17,31 +17,70 @@ h1 {
 }
 
 .capes {
-	display: flex;
-	flex-wrap: wrap;
+	display: vertical-align;
+	position: center;
+}
+
+.dragon {
+	display: vertical-align;
 }
 
 .firecape {
 	opacity: 0.4;
-	padding-left: 20%;
-	padding-right: 1%;
-	display: inline-block;
+	padding-left:3%;
+	padding-right:3%;
 }
 
 .questcape {
 	opacity: 0.4;
-	padding-right: 1%;
-	display: inline-block;
+	padding-left:3%;
+	padding-right:3%;
 }
 
 .achievementcape {
 	opacity: 0.4;
-	padding-right: 1%;
-	display: inline-block;
+	padding-left:3%;
+	padding-right:3%;
+}
+
+.musiccape {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
 }
 
 .maxcape {
 	opacity: 0.4;
-	padding-right: 1%;
-	display: inline-block;
+	padding-left:3%;
+	padding-right:3%;
+}
+
+.dragonfullhelm {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+}
+
+.dragonchainbody {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+}
+
+.dragonplatelegs {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+}
+
+.dragonplateskirt {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+}
+
+.dragonsqshield {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
 }
