@@ -57,30 +57,60 @@ h1 {
 
 .dragonfullhelm {
 	opacity: 0.4;
-	padding-left:3%;
-	padding-right:3%;
+	padding-left:1.5%;
+	padding-right:1.5%;
 }
 
 .dragonchainbody {
 	opacity: 0.4;
-	padding-left:3%;
-	padding-right:3%;
+	padding-left:1.5%;
+	padding-right:1.5%;
 }
 
 .dragonplatelegs {
 	opacity: 0.4;
-	padding-left:3%;
-	padding-right:3%;
+	padding-left:1.5%;
+	padding-right:1.5%;
 }
 
 .dragonplateskirt {
 	opacity: 0.4;
-	padding-left:3%;
-	padding-right:3%;
+	padding-left:1.5%;
+	padding-right:1.5%;
 }
 
 .dragonsqshield {
 	opacity: 0.4;
-	padding-left:3%;
-	padding-right:3%;
+	padding-left:1.5%;
+	padding-right:1.5%;
+}
+
+.dragon2hsword {
+	opacity: 0.4;
+	padding-left:0.8%;
+	padding-right:0.8%;
+}
+
+.dragonspear {
+	opacity: 0.4;
+	padding-left:1%;
+	padding-right:1%;
+}
+
+.dragonwarhammer {
+	opacity: 0.4;
+	padding-left:1%;
+	padding-right:1.5%;
+}
+
+.dragonpickaxe {
+	opacity: 0.4;
+	padding-left:1%;
+	padding-right:1%;
+}
+
+.dragonaxe {
+	opacity: 0.4;
+	padding-left:0.8%;
+	padding-right:1.5%;
 }

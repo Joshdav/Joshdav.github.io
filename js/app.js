@@ -37,6 +37,21 @@ window.onload = function() {
       if (cookiearr[i].trim() == "dragonsqshieldclick=true") {
         $('.dragonsqshield').css('opacity', '1');
       }
+      if (cookiearr[i].trim() == "dragon2hswordclick=true") {
+        $('.dragon2hsword').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "dragonspearclick=true") {
+        $('.dragonspear').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "dragonwarhammerclick=true") {
+        $('.dragonwarhammer').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "dragonpickaxeclick=true") {
+        $('.dragonpickaxe').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "dragonaxeclick=true") {
+        $('.dragonaxe').css('opacity', '1');
+      }
    	}
 }
 
@@ -209,6 +224,91 @@ var main = function() {
           d.setTime(d.getTime() + (24*60*60*1000));
         var expires = "expires="+d.toUTCString();
           document.cookie = "dragonsqshieldclick=true;" + expires + ";";
+        }
+  });
+
+  $('.dragon2hsword').click(function(){
+    if ($(this).css('opacity') == '1') {
+          $(this).animate({'opacity':0.4}, 175);
+          var d = new Date();
+          d.setTime(d.getTime() + (24*60*60*1000));
+        var expires = "expires="+d.toUTCString();
+          document.cookie = "dragon2hswordclick=false;" + expires + ";";
+    }
+        else {
+          $(this).animate({'opacity':1}, 175);
+          var d = new Date();
+          d.setTime(d.getTime() + (24*60*60*1000));
+        var expires = "expires="+d.toUTCString();
+          document.cookie = "dragon2hswordclick=true;" + expires + ";";
+        }
+  });
+
+  $('.dragonspear').click(function(){
+    if ($(this).css('opacity') == '1') {
+          $(this).animate({'opacity':0.4}, 175);
+          var d = new Date();
+          d.setTime(d.getTime() + (24*60*60*1000));
+        var expires = "expires="+d.toUTCString();
+          document.cookie = "dragonspearclick=false;" + expires + ";";
+    }
+        else {
+          $(this).animate({'opacity':1}, 175);
+          var d = new Date();
+          d.setTime(d.getTime() + (24*60*60*1000));
+        var expires = "expires="+d.toUTCString();
+          document.cookie = "dragonspearclick=true;" + expires + ";";
+        }
+  });
+
+  $('.dragonwarhammer').click(function(){
+    if ($(this).css('opacity') == '1') {
+          $(this).animate({'opacity':0.4}, 175);
+          var d = new Date();
+          d.setTime(d.getTime() + (24*60*60*1000));
+        var expires = "expires="+d.toUTCString();
+          document.cookie = "dragonwarhammerclick=false;" + expires + ";";
+    }
+        else {
+          $(this).animate({'opacity':1}, 175);
+          var d = new Date();
+          d.setTime(d.getTime() + (24*60*60*1000));
+        var expires = "expires="+d.toUTCString();
+          document.cookie = "dragonwarhammerclick=true;" + expires + ";";
+        }
+  });
+
+  $('.dragonpickaxe').click(function(){
+    if ($(this).css('opacity') == '1') {
+          $(this).animate({'opacity':0.4}, 175);
+          var d = new Date();
+          d.setTime(d.getTime() + (24*60*60*1000));
+        var expires = "expires="+d.toUTCString();
+          document.cookie = "dragonpickaxeclick=false;" + expires + ";";
+    }
+        else {
+          $(this).animate({'opacity':1}, 175);
+          var d = new Date();
+          d.setTime(d.getTime() + (24*60*60*1000));
+        var expires = "expires="+d.toUTCString();
+          document.cookie = "dragonpickaxeclick=true;" + expires + ";";
+        }
+  });
+
+  $('.dragonaxe').click(function(){
+    if ($(this).css('opacity') == '1') {
+          $(this).animate({'opacity':0.4}, 175);
+          var d = new Date();
+          d.setTime(d.getTime() + (24*60*60*1000));
+        var expires = "expires="+d.toUTCString();
+          document.cookie = "dragonaxeclick=false;" + expires + ";";
+    }
+        else {
+          $(this).animate({'opacity':1}, 175);
+          var d = new Date();
+          d.setTime(d.getTime() + (24*60*60*1000));
+        var expires = "expires="+d.toUTCString();
+          document.cookie = "dragonaxeclick=true;" + expires + ";";
         }
   });
 }
