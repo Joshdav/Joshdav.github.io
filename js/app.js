@@ -1,7 +1,5 @@
 window.onload = function() {
-	var d = new Date();
-    d.setTime(d.getTime() + (24*60*60*1000));
-   	var expires = "expires="+d.toUTCString();
+
    	var cookiearr = document.cookie.split(';');
 
 
@@ -57,19 +55,17 @@ window.onload = function() {
 
 var main = function() {
 
+  var d = new Date();
+  d.setTime(d.getTime() + (24*60*60*1000*365));
+  var expires = "expires="+d.toUTCString();
+
 	$('.firecape').click(function(){
 		if ($(this).css('opacity') == '1') {
         	$(this).animate({'opacity':0.4}, 175);
-        	var d = new Date();
-        	d.setTime(d.getTime() + (24*60*60*1000));
-   			var expires = "expires="+d.toUTCString();
         	document.cookie = "firecapeclick=false;" + expires + ";";
 		}
       	else {
         	$(this).animate({'opacity':1}, 175);
-        	var d = new Date();
-        	d.setTime(d.getTime() + (24*60*60*1000));
-   			var expires = "expires="+d.toUTCString();
         	document.cookie = "firecapeclick=true;" + expires + ";";
         }
 	});
@@ -77,16 +73,10 @@ var main = function() {
 	$('.questcape').click(function(){
 		if ($(this).css('opacity') == '1') {
         	$(this).animate({'opacity':0.4}, 175);
-        	var d = new Date();
-        	d.setTime(d.getTime() + (24*60*60*1000));
-   			var expires = "expires="+d.toUTCString();
         	document.cookie = "questcapeclick=false;" + expires + ";";
         }
       	else {
         	$(this).animate({'opacity':1}, 175);
-        	var d = new Date();
-        	d.setTime(d.getTime() + (24*60*60*1000));
-   			var expires = "expires="+d.toUTCString();
         	document.cookie = "questcapeclick=true;" + expires + ";";
         }
 	});
@@ -94,16 +84,10 @@ var main = function() {
 	$('.achievementcape').click(function(){
 		if ($(this).css('opacity') == '1') {
         	$(this).animate({'opacity':0.4}, 175);
-        	var d = new Date();
-        	d.setTime(d.getTime() + (24*60*60*1000));
-   			var expires = "expires="+d.toUTCString();
         	document.cookie = "achievementcapeclick=false;" + expires + ";";
 		}
       	else {
         	$(this).animate({'opacity':1}, 175);
-        	var d = new Date();
-        	d.setTime(d.getTime() + (24*60*60*1000));
-   			var expires = "expires="+d.toUTCString();
         	document.cookie = "achievementcapeclick=true;" + expires + ";";
         }
 	});
@@ -111,16 +95,10 @@ var main = function() {
   $('.musiccape').click(function(){
     if ($(this).css('opacity') == '1') {
           $(this).animate({'opacity':0.4}, 175);
-          var d = new Date();
-          d.setTime(d.getTime() + (24*60*60*1000));
-        var expires = "expires="+d.toUTCString();
           document.cookie = "musiccapeclick=false;" + expires + ";";
     }
         else {
           $(this).animate({'opacity':1}, 175);
-          var d = new Date();
-          d.setTime(d.getTime() + (24*60*60*1000));
-        var expires = "expires="+d.toUTCString();
           document.cookie = "musiccapeclick=true;" + expires + ";";
         }
   });
@@ -128,16 +106,10 @@ var main = function() {
 	$('.maxcape').click(function(){
 		if ($(this).css('opacity') == '1') {
         	$(this).animate({'opacity':0.4}, 175);
-        	var d = new Date();
-        	d.setTime(d.getTime() + (24*60*60*1000));
-   			var expires = "expires="+d.toUTCString();
         	document.cookie = "maxcapeclick=false;" + expires + ";";
 		}
       	else {
         	$(this).animate({'opacity':1}, 175);
-        	var d = new Date();
-        	d.setTime(d.getTime() + (24*60*60*1000));
-   			var expires = "expires="+d.toUTCString();
         	document.cookie = "maxcapeclick=true;" + expires + ";";
         }
 	});
@@ -145,16 +117,10 @@ var main = function() {
   $('.dragonfullhelm').click(function(){
     if ($(this).css('opacity') == '1') {
           $(this).animate({'opacity':0.4}, 175);
-          var d = new Date();
-          d.setTime(d.getTime() + (24*60*60*1000));
-        var expires = "expires="+d.toUTCString();
           document.cookie = "dragonfullhelmclick=false;" + expires + ";";
     }
         else {
           $(this).animate({'opacity':1}, 175);
-          var d = new Date();
-          d.setTime(d.getTime() + (24*60*60*1000));
-        var expires = "expires="+d.toUTCString();
           document.cookie = "dragonfullhelmclick=true;" + expires + ";";
         }
   });
@@ -162,16 +128,10 @@ var main = function() {
   $('.dragonchainbody').click(function(){
     if ($(this).css('opacity') == '1') {
           $(this).animate({'opacity':0.4}, 175);
-          var d = new Date();
-          d.setTime(d.getTime() + (24*60*60*1000));
-        var expires = "expires="+d.toUTCString();
           document.cookie = "dragonchainbodyclick=false;" + expires + ";";
     }
         else {
           $(this).animate({'opacity':1}, 175);
-          var d = new Date();
-          d.setTime(d.getTime() + (24*60*60*1000));
-        var expires = "expires="+d.toUTCString();
           document.cookie = "dragonchainbodyclick=true;" + expires + ";";
         }
   });
@@ -179,16 +139,10 @@ var main = function() {
   $('.dragonplatelegs').click(function(){
     if ($(this).css('opacity') == '1') {
           $(this).animate({'opacity':0.4}, 175);
-          var d = new Date();
-          d.setTime(d.getTime() + (24*60*60*1000));
-        var expires = "expires="+d.toUTCString();
           document.cookie = "dragonplatelegsclick=false;" + expires + ";";
     }
         else {
           $(this).animate({'opacity':1}, 175);
-          var d = new Date();
-          d.setTime(d.getTime() + (24*60*60*1000));
-        var expires = "expires="+d.toUTCString();
           document.cookie = "dragonplatelegsclick=true;" + expires + ";";
         }
   });
@@ -196,16 +150,10 @@ var main = function() {
   $('.dragonplateskirt').click(function(){
     if ($(this).css('opacity') == '1') {
           $(this).animate({'opacity':0.4}, 175);
-          var d = new Date();
-          d.setTime(d.getTime() + (24*60*60*1000));
-        var expires = "expires="+d.toUTCString();
           document.cookie = "dragonplateskirtclick=false;" + expires + ";";
     }
         else {
           $(this).animate({'opacity':1}, 175);
-          var d = new Date();
-          d.setTime(d.getTime() + (24*60*60*1000));
-        var expires = "expires="+d.toUTCString();
           document.cookie = "dragonplateskirtclick=true;" + expires + ";";
         }
   });
@@ -213,16 +161,10 @@ var main = function() {
   $('.dragonsqshield').click(function(){
     if ($(this).css('opacity') == '1') {
           $(this).animate({'opacity':0.4}, 175);
-          var d = new Date();
-          d.setTime(d.getTime() + (24*60*60*1000));
-        var expires = "expires="+d.toUTCString();
           document.cookie = "dragonsqshieldclick=false;" + expires + ";";
     }
         else {
           $(this).animate({'opacity':1}, 175);
-          var d = new Date();
-          d.setTime(d.getTime() + (24*60*60*1000));
-        var expires = "expires="+d.toUTCString();
           document.cookie = "dragonsqshieldclick=true;" + expires + ";";
         }
   });
@@ -230,16 +172,10 @@ var main = function() {
   $('.dragon2hsword').click(function(){
     if ($(this).css('opacity') == '1') {
           $(this).animate({'opacity':0.4}, 175);
-          var d = new Date();
-          d.setTime(d.getTime() + (24*60*60*1000));
-        var expires = "expires="+d.toUTCString();
           document.cookie = "dragon2hswordclick=false;" + expires + ";";
     }
         else {
           $(this).animate({'opacity':1}, 175);
-          var d = new Date();
-          d.setTime(d.getTime() + (24*60*60*1000));
-        var expires = "expires="+d.toUTCString();
           document.cookie = "dragon2hswordclick=true;" + expires + ";";
         }
   });
@@ -247,16 +183,10 @@ var main = function() {
   $('.dragonspear').click(function(){
     if ($(this).css('opacity') == '1') {
           $(this).animate({'opacity':0.4}, 175);
-          var d = new Date();
-          d.setTime(d.getTime() + (24*60*60*1000));
-        var expires = "expires="+d.toUTCString();
           document.cookie = "dragonspearclick=false;" + expires + ";";
     }
         else {
           $(this).animate({'opacity':1}, 175);
-          var d = new Date();
-          d.setTime(d.getTime() + (24*60*60*1000));
-        var expires = "expires="+d.toUTCString();
           document.cookie = "dragonspearclick=true;" + expires + ";";
         }
   });
@@ -264,16 +194,10 @@ var main = function() {
   $('.dragonwarhammer').click(function(){
     if ($(this).css('opacity') == '1') {
           $(this).animate({'opacity':0.4}, 175);
-          var d = new Date();
-          d.setTime(d.getTime() + (24*60*60*1000));
-        var expires = "expires="+d.toUTCString();
           document.cookie = "dragonwarhammerclick=false;" + expires + ";";
     }
         else {
           $(this).animate({'opacity':1}, 175);
-          var d = new Date();
-          d.setTime(d.getTime() + (24*60*60*1000));
-        var expires = "expires="+d.toUTCString();
           document.cookie = "dragonwarhammerclick=true;" + expires + ";";
         }
   });
@@ -281,16 +205,10 @@ var main = function() {
   $('.dragonpickaxe').click(function(){
     if ($(this).css('opacity') == '1') {
           $(this).animate({'opacity':0.4}, 175);
-          var d = new Date();
-          d.setTime(d.getTime() + (24*60*60*1000));
-        var expires = "expires="+d.toUTCString();
           document.cookie = "dragonpickaxeclick=false;" + expires + ";";
     }
         else {
           $(this).animate({'opacity':1}, 175);
-          var d = new Date();
-          d.setTime(d.getTime() + (24*60*60*1000));
-        var expires = "expires="+d.toUTCString();
           document.cookie = "dragonpickaxeclick=true;" + expires + ";";
         }
   });
@@ -298,16 +216,10 @@ var main = function() {
   $('.dragonaxe').click(function(){
     if ($(this).css('opacity') == '1') {
           $(this).animate({'opacity':0.4}, 175);
-          var d = new Date();
-          d.setTime(d.getTime() + (24*60*60*1000));
-        var expires = "expires="+d.toUTCString();
           document.cookie = "dragonaxeclick=false;" + expires + ";";
     }
         else {
           $(this).animate({'opacity':1}, 175);
-          var d = new Date();
-          d.setTime(d.getTime() + (24*60*60*1000));
-        var expires = "expires="+d.toUTCString();
           document.cookie = "dragonaxeclick=true;" + expires + ";";
         }
   });
