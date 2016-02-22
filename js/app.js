@@ -107,6 +107,29 @@ window.onload = function() {
       if (cookiearr[i].trim() == "voidknightglovesclick=true") {
         $('.voidknightgloves').css('opacity', '1');
       }
+      if (cookiearr[i].trim() == "gracefulhoodclick=true") {
+        $('.gracefulhood').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefulhoodclick=purple") {
+        $('.gracefulhood').attr("src", "images/Graceful_hood_purple.png");
+        $('.gracefulhood').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefulhoodclick=blue") {
+        $('.gracefulhood').attr("src", "images/Graceful_hood_blue.png");
+        $('.gracefulhood').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefulhoodclick=orange") {
+        $('.gracefulhood').attr("src", "images/Graceful_hood_orange.png");
+        $('.gracefulhood').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefulhoodclick=red") {
+        $('.gracefulhood').attr("src", "images/Graceful_hood_red.png");
+        $('.gracefulhood').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefulhoodclick=green") {
+        $('.gracefulhood').attr("src", "images/Graceful_hood_green.png");
+        $('.gracefulhood').css('opacity', '1');
+      }
    	}
 }
 
@@ -538,4 +561,15 @@ var main = function() {
   });
 
 }
+
+/*Preloads a few images not in the HTML*/
+
+function preload() {
+    $("images/Graceful_hood_purple.png", "images/Graceful_hood_blue.png", "images/Graceful_hood_orange.png", "images/Graceful_hood_red.png", "images/Graceful_hood_green.png").each(function () {
+        $('<img />').attr('src',this).appendTo('body').css('display','none');
+    });
+}
+
+/*Waits for the document to load before starting the js*/
+
 $(document).ready(main);
