@@ -98,11 +98,21 @@ window.onload = function() {
       if (cookiearr[i].trim() == "voidmaceclick=true") {
         $('.voidmace').css('opacity', '1');
       }
+      if (cookiearr[i].trim() == "voidrobeclick=true") {
+        $('.voidrobe').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "voideliterobeclick=true") {
+        $('.voideliterobe').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "voidknightglovesclick=true") {
+        $('.voidknightgloves').css('opacity', '1');
+      }
    	}
 }
 
 var main = function() {
 
+  /*sets a cookie to expire in a year*/
   var d = new Date();
   d.setTime(d.getTime() + (24*60*60*1000*365));
   var expires = "expires="+d.toUTCString();
@@ -445,6 +455,85 @@ var main = function() {
         else {
           $(this).animate({'opacity':1}, 175);
           document.cookie = "voidmaceclick=true;" + expires + ";";
+        }
+  });
+
+  $('.voidrobe').click(function(){
+    if ($(this).css('opacity') == '1') {
+          $(this).animate({'opacity':0.4}, 175);
+          document.cookie = "voidrobeclick=false;" + expires + ";";
+    }
+        else {
+          $(this).animate({'opacity':1}, 175);
+          document.cookie = "voidrobeclick=true;" + expires + ";";
+        }
+  });
+
+  $('.voideliterobe').click(function(){
+    if ($(this).css('opacity') == '1') {
+          $(this).animate({'opacity':0.4}, 175);
+          document.cookie = "voideliterobeclick=false;" + expires + ";";
+    }
+        else {
+          $(this).animate({'opacity':1}, 175);
+          document.cookie = "voideliterobeclick=true;" + expires + ";";
+        }
+  });
+
+  $('.voidknightgloves').click(function(){
+    if ($(this).css('opacity') == '1') {
+          $(this).animate({'opacity':0.4}, 175);
+          document.cookie = "voidknightglovesclick=false;" + expires + ";";
+    }
+        else {
+          $(this).animate({'opacity':1}, 175);
+          document.cookie = "voidknightglovesclick=true;" + expires + ";";
+        }
+  });
+
+  /*This is the first function to include changing images for recolours*/
+
+  $('.gracefulhood').click(function(){
+    if ($(this).css('opacity') == '1') {
+      if ($(this).attr("src") == "images/Graceful_hood.png") {
+          $(this).fadeOut("fast", function() {
+            $(this).attr("src", "images/Graceful_hood_purple.png");
+            $(this).fadeIn("fast");
+          });
+          document.cookie = "gracefulhoodclick=purple;" + expires + ";";
+      } else if ($(this).attr("src") == "images/Graceful_hood_purple.png") {
+          $(this).fadeOut("fast", function() {
+            $(this).attr("src", "images/Graceful_hood_blue.png");
+            $(this).fadeIn("fast");
+          });
+          document.cookie = "gracefulhoodclick=blue;" + expires + ";";
+      } else if ($(this).attr("src") == "images/Graceful_hood_blue.png") {
+          $(this).fadeOut("fast", function() {
+            $(this).attr("src", "images/Graceful_hood_orange.png");
+            $(this).fadeIn("fast");
+          });
+          document.cookie = "gracefulhoodclick=orange;" + expires + ";";
+      } else if ($(this).attr("src") == "images/Graceful_hood_orange.png") {
+          $(this).fadeOut("fast", function() {
+            $(this).attr("src", "images/Graceful_hood_red.png");
+            $(this).fadeIn("fast");
+          });
+          document.cookie = "gracefulhoodclick=red;" + expires + ";";
+      } else if ($(this).attr("src") == "images/Graceful_hood_red.png") {
+          $(this).fadeOut("fast", function() {
+            $(this).attr("src", "images/Graceful_hood_green.png");
+            $(this).fadeIn("fast");
+          });
+          document.cookie = "gracefulhoodclick=green;" + expires + ";";
+      } else {
+          $(this).animate({'opacity':0.4}, 175);
+          $(this).attr("src", "images/Graceful_hood.png");
+          document.cookie = "gracefulhoodclick=false;" + expires + ";";
+      }
+    }
+        else {
+          $(this).animate({'opacity':1}, 175);
+          document.cookie = "gracefulhoodclick=true;" + expires + ";";
         }
   });
 

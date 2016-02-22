@@ -59,48 +59,56 @@ h1 {
 	opacity: 0.4;
 	padding-left:3%;
 	padding-right:3%;
+	padding-bottom:2%;
 }
 
 .dragonchainbody {
 	opacity: 0.4;
 	padding-left:3%;
 	padding-right:3%;
+	padding-bottom:2%;
 }
 
 .dragonplatelegs {
 	opacity: 0.4;
 	padding-left:5%;
 	padding-right:6%;
+	padding-bottom:2%;
 }
 
 .dragonplateskirt {
 	opacity: 0.4;
 	padding-left:2%;
 	padding-right:3%;
+	padding-bottom:2%;
 }
 
 .dragonsqshield {
 	opacity: 0.4;
 	padding-left:3%;
 	padding-right:3%;
+	padding-bottom:2%;
 }
 
 .dragon2hsword {
 	opacity: 0.4;
 	padding-left:3%;
 	padding-right:3%;
+	padding-bottom:2%;
 }
 
 .dragonspear {
 	opacity: 0.4;
 	padding-left:3%;
 	padding-right:3%;
+	padding-bottom:2%;
 }
 
 .dragonwarhammer {
 	opacity: 0.4;
 	padding-left:3%;
 	padding-right:3%;
+	padding-bottom:2%;
 }
 
 .dragondefender {
@@ -125,50 +133,54 @@ h1 {
 	opacity: 0.4;
 	padding-left:3%;
 	padding-right:3%;
+	padding-bottom:2%;
 }
 
 .seersring {
 	opacity: 0.4;
 	padding-left:3%;
 	padding-right:3%;
+	padding-bottom:2%;
 }
 
 .archersring {
 	opacity: 0.4;
 	padding-left:3%;
 	padding-right:3%;
+	padding-bottom:2%;
 }
 
 .warriorring {
 	opacity: 0.4;
 	padding-left:3%;
 	padding-right:3%;
+	padding-bottom:2%;
 }
 
 .seercull {
 	opacity: 0.4;
-	padding-left:3%;
+	padding-left:1%;
 	padding-right:3%;
 }
 
 .mudbattlestaff {
 	opacity: 0.4;
 	padding-left:3%;
-	padding-right:3%;
+	padding-right:1%;
 }
 
 .treasonousring {
 	opacity: 0.4;
 	padding-left:3%;
 	padding-right:3%;
-	padding-bottom:6%;
+	padding-bottom:8%;
 }
 
 .tyrannicalring {
 	opacity: 0.4;
 	padding-left:3%;
 	padding-right:3%;
-	padding-bottom:6%;
+	padding-bottom:8%;
 }
 
 .ringofthegods {
@@ -204,15 +216,42 @@ h1 {
 	opacity: 0.4;
 	padding-left:3%;
 	padding-right:3%;
+	padding-bottom:2%;
 }
 
 .voidelitetop {
 	opacity: 0.4;
 	padding-left:3%;
 	padding-right:3%;
+	padding-bottom:2%;
 }
 
 .voidmace {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+	padding-bottom:2%;
+}
+
+.voidrobe {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+}
+
+.voideliterobe {
+	opacity: 0.4;
+	padding-left:6%;
+	padding-right:6%;
+}
+
+.voidknightgloves {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+}
+
+.gracefulhood {
 	opacity: 0.4;
 	padding-left:3%;
 	padding-right:3%;
