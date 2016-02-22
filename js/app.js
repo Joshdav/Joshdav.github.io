@@ -2,7 +2,6 @@ window.onload = function() {
 
    	var cookiearr = document.cookie.split(';');
 
-
    	/*cookie checker*/
    	for (var i = 0; i < cookiearr.length; i++) {
    		if (cookiearr[i].trim() == "firecapeclick=true") {
@@ -141,377 +140,139 @@ var main = function() {
   var expires = "expires="+d.toUTCString();
 
 	$('.firecape').click(function(){
-		if ($(this).css('opacity') == '1') {
-        	$(this).animate({'opacity':0.4}, 175);
-        	document.cookie = "firecapeclick=false;" + expires + ";";
-		}
-      	else {
-        	$(this).animate({'opacity':1}, 175);
-        	document.cookie = "firecapeclick=true;" + expires + ";";
-        }
+		transparency($(this), expires);
 	});
 
 	$('.questcape').click(function(){
-		if ($(this).css('opacity') == '1') {
-        	$(this).animate({'opacity':0.4}, 175);
-        	document.cookie = "questcapeclick=false;" + expires + ";";
-        }
-      	else {
-        	$(this).animate({'opacity':1}, 175);
-        	document.cookie = "questcapeclick=true;" + expires + ";";
-        }
+		transparency($(this), expires);
 	});
 
 	$('.achievementcape').click(function(){
-		if ($(this).css('opacity') == '1') {
-        	$(this).animate({'opacity':0.4}, 175);
-        	document.cookie = "achievementcapeclick=false;" + expires + ";";
-		}
-      	else {
-        	$(this).animate({'opacity':1}, 175);
-        	document.cookie = "achievementcapeclick=true;" + expires + ";";
-        }
+		transparency($(this), expires);
 	});
 
   $('.musiccape').click(function(){
-    if ($(this).css('opacity') == '1') {
-          $(this).animate({'opacity':0.4}, 175);
-          document.cookie = "musiccapeclick=false;" + expires + ";";
-    }
-        else {
-          $(this).animate({'opacity':1}, 175);
-          document.cookie = "musiccapeclick=true;" + expires + ";";
-        }
+    transparency($(this), expires);
   });
 
 	$('.maxcape').click(function(){
-		if ($(this).css('opacity') == '1') {
-        	$(this).animate({'opacity':0.4}, 175);
-        	document.cookie = "maxcapeclick=false;" + expires + ";";
-		}
-      	else {
-        	$(this).animate({'opacity':1}, 175);
-        	document.cookie = "maxcapeclick=true;" + expires + ";";
-        }
+		transparency($(this), expires);
 	});
 
   $('.dragonfullhelm').click(function(){
-    if ($(this).css('opacity') == '1') {
-          $(this).animate({'opacity':0.4}, 175);
-          document.cookie = "dragonfullhelmclick=false;" + expires + ";";
-    }
-        else {
-          $(this).animate({'opacity':1}, 175);
-          document.cookie = "dragonfullhelmclick=true;" + expires + ";";
-        }
+    transparency($(this), expires);
   });
 
   $('.dragonchainbody').click(function(){
-    if ($(this).css('opacity') == '1') {
-          $(this).animate({'opacity':0.4}, 175);
-          document.cookie = "dragonchainbodyclick=false;" + expires + ";";
-    }
-        else {
-          $(this).animate({'opacity':1}, 175);
-          document.cookie = "dragonchainbodyclick=true;" + expires + ";";
-        }
+    transparency($(this), expires);
   });
 
   $('.dragonplatelegs').click(function(){
-    if ($(this).css('opacity') == '1') {
-          $(this).animate({'opacity':0.4}, 175);
-          document.cookie = "dragonplatelegsclick=false;" + expires + ";";
-    }
-        else {
-          $(this).animate({'opacity':1}, 175);
-          document.cookie = "dragonplatelegsclick=true;" + expires + ";";
-        }
+    transparency($(this), expires);
   });
 
   $('.dragonplateskirt').click(function(){
-    if ($(this).css('opacity') == '1') {
-          $(this).animate({'opacity':0.4}, 175);
-          document.cookie = "dragonplateskirtclick=false;" + expires + ";";
-    }
-        else {
-          $(this).animate({'opacity':1}, 175);
-          document.cookie = "dragonplateskirtclick=true;" + expires + ";";
-        }
+    transparency($(this), expires);
   });
 
   $('.dragonsqshield').click(function(){
-    if ($(this).css('opacity') == '1') {
-          $(this).animate({'opacity':0.4}, 175);
-          document.cookie = "dragonsqshieldclick=false;" + expires + ";";
-    }
-        else {
-          $(this).animate({'opacity':1}, 175);
-          document.cookie = "dragonsqshieldclick=true;" + expires + ";";
-        }
+    transparency($(this), expires);
   });
 
   $('.dragon2hsword').click(function(){
-    if ($(this).css('opacity') == '1') {
-          $(this).animate({'opacity':0.4}, 175);
-          document.cookie = "dragon2hswordclick=false;" + expires + ";";
-    }
-        else {
-          $(this).animate({'opacity':1}, 175);
-          document.cookie = "dragon2hswordclick=true;" + expires + ";";
-        }
+    transparency($(this), expires);
   });
 
   $('.dragonspear').click(function(){
-    if ($(this).css('opacity') == '1') {
-          $(this).animate({'opacity':0.4}, 175);
-          document.cookie = "dragonspearclick=false;" + expires + ";";
-    }
-        else {
-          $(this).animate({'opacity':1}, 175);
-          document.cookie = "dragonspearclick=true;" + expires + ";";
-        }
+    transparency($(this), expires);
   });
 
   $('.dragonwarhammer').click(function(){
-    if ($(this).css('opacity') == '1') {
-          $(this).animate({'opacity':0.4}, 175);
-          document.cookie = "dragonwarhammerclick=false;" + expires + ";";
-    }
-        else {
-          $(this).animate({'opacity':1}, 175);
-          document.cookie = "dragonwarhammerclick=true;" + expires + ";";
-        }
+    transparency($(this), expires);
   });
 
   $('.dragondefender').click(function(){
-    if ($(this).css('opacity') == '1') {
-          $(this).animate({'opacity':0.4}, 175);
-          document.cookie = "dragondefenderclick=false;" + expires + ";";
-    }
-        else {
-          $(this).animate({'opacity':1}, 175);
-          document.cookie = "dragondefenderclick=true;" + expires + ";";
-        }
+    transparency($(this), expires);
   });
 
   $('.dragonpickaxe').click(function(){
-    if ($(this).css('opacity') == '1') {
-          $(this).animate({'opacity':0.4}, 175);
-          document.cookie = "dragonpickaxeclick=false;" + expires + ";";
-    }
-        else {
-          $(this).animate({'opacity':1}, 175);
-          document.cookie = "dragonpickaxeclick=true;" + expires + ";";
-        }
+    transparency($(this), expires);
   });
 
   $('.dragonaxe').click(function(){
-    if ($(this).css('opacity') == '1') {
-          $(this).animate({'opacity':0.4}, 175);
-          document.cookie = "dragonaxeclick=false;" + expires + ";";
-    }
-        else {
-          $(this).animate({'opacity':1}, 175);
-          document.cookie = "dragonaxeclick=true;" + expires + ";";
-        }
+    transparency($(this), expires);
   });
 
   $('.berserkerring').click(function(){
-    if ($(this).css('opacity') == '1') {
-          $(this).animate({'opacity':0.4}, 175);
-          document.cookie = "berserkerringclick=false;" + expires + ";";
-    }
-        else {
-          $(this).animate({'opacity':1}, 175);
-          document.cookie = "berserkerringclick=true;" + expires + ";";
-        }
+    transparency($(this), expires);
   });
 
   $('.seersring').click(function(){
-    if ($(this).css('opacity') == '1') {
-          $(this).animate({'opacity':0.4}, 175);
-          document.cookie = "seersringclick=false;" + expires + ";";
-    }
-        else {
-          $(this).animate({'opacity':1}, 175);
-          document.cookie = "seersringclick=true;" + expires + ";";
-        }
+    transparency($(this), expires);
   });
 
   $('.archersring').click(function(){
-    if ($(this).css('opacity') == '1') {
-          $(this).animate({'opacity':0.4}, 175);
-          document.cookie = "archersringclick=false;" + expires + ";";
-    }
-        else {
-          $(this).animate({'opacity':1}, 175);
-          document.cookie = "archersringclick=true;" + expires + ";";
-        }
+    transparency($(this), expires);
   });
 
   $('.warriorring').click(function(){
-    if ($(this).css('opacity') == '1') {
-          $(this).animate({'opacity':0.4}, 175);
-          document.cookie = "warriorringclick=false;" + expires + ";";
-    }
-        else {
-          $(this).animate({'opacity':1}, 175);
-          document.cookie = "warriorringclick=true;" + expires + ";";
-        }
+    transparency($(this), expires);
   });
 
   $('.seercull').click(function(){
-    if ($(this).css('opacity') == '1') {
-          $(this).animate({'opacity':0.4}, 175);
-          document.cookie = "seercullclick=false;" + expires + ";";
-    }
-        else {
-          $(this).animate({'opacity':1}, 175);
-          document.cookie = "seercullclick=true;" + expires + ";";
-        }
+    transparency($(this), expires);
   });
 
   $('.mudbattlestaff').click(function(){
-    if ($(this).css('opacity') == '1') {
-          $(this).animate({'opacity':0.4}, 175);
-          document.cookie = "mudbattlestaffclick=false;" + expires + ";";
-    }
-        else {
-          $(this).animate({'opacity':1}, 175);
-          document.cookie = "mudbattlestaffclick=true;" + expires + ";";
-        }
+    transparency($(this), expires);
   });
 
   $('.treasonousring').click(function(){
-    if ($(this).css('opacity') == '1') {
-          $(this).animate({'opacity':0.4}, 175);
-          document.cookie = "treasonousringclick=false;" + expires + ";";
-    }
-        else {
-          $(this).animate({'opacity':1}, 175);
-          document.cookie = "treasonousringclick=true;" + expires + ";";
-        }
+    transparency($(this), expires);
   });
 
   $('.tyrannicalring').click(function(){
-    if ($(this).css('opacity') == '1') {
-          $(this).animate({'opacity':0.4}, 175);
-          document.cookie = "tyrannicalringclick=false;" + expires + ";";
-    }
-        else {
-          $(this).animate({'opacity':1}, 175);
-          document.cookie = "tyrannicalringclick=true;" + expires + ";";
-        }
+    transparency($(this), expires);
   });
 
   $('.ringofthegods').click(function(){
-    if ($(this).css('opacity') == '1') {
-          $(this).animate({'opacity':0.4}, 175);
-          document.cookie = "ringofthegodsclick=false;" + expires + ";";
-    }
-        else {
-          $(this).animate({'opacity':1}, 175);
-          document.cookie = "ringofthegodsclick=true;" + expires + ";";
-        }
+    transparency($(this), expires);
   });
 
   $('.voidrange').click(function(){
-    if ($(this).css('opacity') == '1') {
-          $(this).animate({'opacity':0.4}, 175);
-          document.cookie = "voidrangeclick=false;" + expires + ";";
-    }
-        else {
-          $(this).animate({'opacity':1}, 175);
-          document.cookie = "voidrangeclick=true;" + expires + ";";
-        }
+    transparency($(this), expires);
   });
 
   $('.voidmelee').click(function(){
-    if ($(this).css('opacity') == '1') {
-          $(this).animate({'opacity':0.4}, 175);
-          document.cookie = "voidmeleeclick=false;" + expires + ";";
-    }
-        else {
-          $(this).animate({'opacity':1}, 175);
-          document.cookie = "voidmeleeclick=true;" + expires + ";";
-        }
+    transparency($(this), expires);
   });
 
   $('.voidmage').click(function(){
-    if ($(this).css('opacity') == '1') {
-          $(this).animate({'opacity':0.4}, 175);
-          document.cookie = "voidmageclick=false;" + expires + ";";
-    }
-        else {
-          $(this).animate({'opacity':1}, 175);
-          document.cookie = "voidmageclick=true;" + expires + ";";
-        }
+    transparency($(this), expires);
   });
 
   $('.voidtop').click(function(){
-    if ($(this).css('opacity') == '1') {
-          $(this).animate({'opacity':0.4}, 175);
-          document.cookie = "voidtopclick=false;" + expires + ";";
-    }
-        else {
-          $(this).animate({'opacity':1}, 175);
-          document.cookie = "voidtopclick=true;" + expires + ";";
-        }
+    transparency($(this), expires);
   });
 
   $('.voidelitetop').click(function(){
-    if ($(this).css('opacity') == '1') {
-          $(this).animate({'opacity':0.4}, 175);
-          document.cookie = "voidelitetopclick=false;" + expires + ";";
-    }
-        else {
-          $(this).animate({'opacity':1}, 175);
-          document.cookie = "voidelitetopclick=true;" + expires + ";";
-        }
+    transparency($(this), expires);
   });
 
   $('.voidmace').click(function(){
-    if ($(this).css('opacity') == '1') {
-          $(this).animate({'opacity':0.4}, 175);
-          document.cookie = "voidmaceclick=false;" + expires + ";";
-    }
-        else {
-          $(this).animate({'opacity':1}, 175);
-          document.cookie = "voidmaceclick=true;" + expires + ";";
-        }
+    transparency($(this), expires);
   });
 
   $('.voidrobe').click(function(){
-    if ($(this).css('opacity') == '1') {
-          $(this).animate({'opacity':0.4}, 175);
-          document.cookie = "voidrobeclick=false;" + expires + ";";
-    }
-        else {
-          $(this).animate({'opacity':1}, 175);
-          document.cookie = "voidrobeclick=true;" + expires + ";";
-        }
+    transparency($(this), expires);
   });
 
   $('.voideliterobe').click(function(){
-    if ($(this).css('opacity') == '1') {
-          $(this).animate({'opacity':0.4}, 175);
-          document.cookie = "voideliterobeclick=false;" + expires + ";";
-    }
-        else {
-          $(this).animate({'opacity':1}, 175);
-          document.cookie = "voideliterobeclick=true;" + expires + ";";
-        }
+    transparency($(this), expires);
   });
 
-  $('.voidknightgloves').click(function(){
-    if ($(this).css('opacity') == '1') {
-          $(this).animate({'opacity':0.4}, 175);
-          document.cookie = "voidknightglovesclick=false;" + expires + ";";
-    }
-        else {
-          $(this).animate({'opacity':1}, 175);
-          document.cookie = "voidknightglovesclick=true;" + expires + ";";
-        }
+  $('.voidknightgloves').click(function() {
+    transparency($(this), expires);
   });
 
   /*This is the first function to include changing images for recolours*/
@@ -562,12 +323,14 @@ var main = function() {
 
 }
 
-/*Preloads a few images not in the HTML*/
-
-function preload() {
-    $("images/Graceful_hood_purple.png", "images/Graceful_hood_blue.png", "images/Graceful_hood_orange.png", "images/Graceful_hood_red.png", "images/Graceful_hood_green.png").each(function () {
-        $('<img />').attr('src',this).appendTo('body').css('display','none');
-    });
+function transparency(currentitem, expires) {
+    if (currentitem.css('opacity') == '1') {
+        currentitem.animate({'opacity':0.4}, 175);
+        document.cookie = currentitem.attr('class') + "click=false;" + expires + ";";
+    } else {
+        currentitem.animate({'opacity':1}, 175);
+        document.cookie = currentitem.attr('class') + "click=true;" + expires + ";";
+    }
 }
 
 /*Waits for the document to load before starting the js*/
