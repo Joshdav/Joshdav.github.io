@@ -57,60 +57,163 @@ h1 {
 
 .dragonfullhelm {
 	opacity: 0.4;
-	padding-left:1.5%;
-	padding-right:1.5%;
+	padding-left:3%;
+	padding-right:3%;
 }
 
 .dragonchainbody {
 	opacity: 0.4;
-	padding-left:1.5%;
-	padding-right:1.5%;
+	padding-left:3%;
+	padding-right:3%;
 }
 
 .dragonplatelegs {
 	opacity: 0.4;
-	padding-left:1.5%;
-	padding-right:1.5%;
+	padding-left:5%;
+	padding-right:6%;
 }
 
 .dragonplateskirt {
 	opacity: 0.4;
-	padding-left:1.5%;
-	padding-right:1.5%;
+	padding-left:2%;
+	padding-right:3%;
 }
 
 .dragonsqshield {
 	opacity: 0.4;
-	padding-left:1.5%;
-	padding-right:1.5%;
+	padding-left:3%;
+	padding-right:3%;
 }
 
 .dragon2hsword {
 	opacity: 0.4;
-	padding-left:0.8%;
-	padding-right:0.8%;
+	padding-left:3%;
+	padding-right:3%;
 }
 
 .dragonspear {
 	opacity: 0.4;
-	padding-left:1%;
-	padding-right:1%;
+	padding-left:3%;
+	padding-right:3%;
 }
 
 .dragonwarhammer {
 	opacity: 0.4;
-	padding-left:1%;
-	padding-right:1.5%;
+	padding-left:3%;
+	padding-right:3%;
+}
+
+.dragondefender {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
 }
 
 .dragonpickaxe {
 	opacity: 0.4;
-	padding-left:1%;
-	padding-right:1%;
+	padding-left:3%;
+	padding-right:3%;
 }
 
 .dragonaxe {
 	opacity: 0.4;
-	padding-left:0.8%;
-	padding-right:1.5%;
+	padding-left:3%;
+	padding-right:3%;
+}
+
+.berserkerring {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+}
+
+.seersring {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+}
+
+.archersring {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+}
+
+.warriorring {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+}
+
+.seercull {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+}
+
+.mudbattlestaff {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+}
+
+.treasonousring {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+	padding-bottom:6%;
+}
+
+.tyrannicalring {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+	padding-bottom:6%;
+}
+
+.ringofthegods {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+}
+
+.voidrange {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:4%;
+	padding-bottom:2%;
+}
+
+.voidmelee {
+	opacity: 0.4;
+	padding-left:1%;
+	padding-right:5%;
+	margin-right: 3%;
+	padding-bottom:2%;
+}
+
+.voidmage {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+	border-right: 3%;
+	padding-bottom:2%;
+}
+
+.voidtop {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+}
+
+.voidelitetop {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+}
+
+.voidmace {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
 }
