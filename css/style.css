@@ -255,4 +255,40 @@ h1 {
 	opacity: 0.4;
 	padding-left:3%;
 	padding-right:3%;
+	padding-bottom:2%;
+}
+
+.gracefulcape {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+	padding-bottom:2%;
+}
+
+.gracefultop {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+	padding-bottom:2%;
+}
+
+.gracefulgloves {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+	padding-bottom:2%;
+}
+
+.gracefullegs {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+	padding-bottom:2%;
+}
+
+.gracefulboots {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+	padding-bottom:2%;
 }

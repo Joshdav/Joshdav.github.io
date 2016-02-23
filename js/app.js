@@ -129,6 +129,121 @@ window.onload = function() {
         $('.gracefulhood').attr("src", "images/Graceful_hood_green.png");
         $('.gracefulhood').css('opacity', '1');
       }
+      if (cookiearr[i].trim() == "gracefulcapeclick=true") {
+        $('.gracefulcape').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefulcapeclick=purple") {
+        $('.gracefulcape').attr("src", "images/Graceful_cape_purple.png");
+        $('.gracefulcape').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefulcapeclick=blue") {
+        $('.gracefulcape').attr("src", "images/Graceful_cape_blue.png");
+        $('.gracefulcape').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefulcapeclick=orange") {
+        $('.gracefulcape').attr("src", "images/Graceful_cape_orange.png");
+        $('.gracefulcape').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefulcapeclick=red") {
+        $('.gracefulcape').attr("src", "images/Graceful_cape_red.png");
+        $('.gracefulcape').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefulcapeclick=green") {
+        $('.gracefulcape').attr("src", "images/Graceful_cape_green.png");
+        $('.gracefulcape').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefultopclick=true") {
+        $('.gracefultop').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefultopclick=purple") {
+        $('.gracefultop').attr("src", "images/Graceful_top_purple.png");
+        $('.gracefultop').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefultopclick=blue") {
+        $('.gracefultop').attr("src", "images/Graceful_top_blue.png");
+        $('.gracefultop').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefultopclick=orange") {
+        $('.gracefultop').attr("src", "images/Graceful_top_orange.png");
+        $('.gracefultop').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefultopclick=red") {
+        $('.gracefultop').attr("src", "images/Graceful_top_red.png");
+        $('.gracefultop').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefultopclick=green") {
+        $('.gracefultop').attr("src", "images/Graceful_top_green.png");
+        $('.gracefultop').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefulglovesclick=true") {
+        $('.gracefulgloves').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefulglovesclick=purple") {
+        $('.gracefulgloves').attr("src", "images/Graceful_gloves_purple.png");
+        $('.gracefulgloves').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefulglovesclick=blue") {
+        $('.gracefulgloves').attr("src", "images/Graceful_gloves_blue.png");
+        $('.gracefulgloves').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefulglovesclick=orange") {
+        $('.gracefulgloves').attr("src", "images/Graceful_gloves_orange.png");
+        $('.gracefulgloves').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefulglovesclick=red") {
+        $('.gracefulgloves').attr("src", "images/Graceful_gloves_red.png");
+        $('.gracefulgloves').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefulglovesclick=green") {
+        $('.gracefulgloves').attr("src", "images/Graceful_gloves_green.png");
+        $('.gracefulgloves').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefullegsclick=true") {
+        $('.gracefullegs').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefullegsclick=purple") {
+        $('.gracefullegs').attr("src", "images/Graceful_legs_purple.png");
+        $('.gracefullegs').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefullegsclick=blue") {
+        $('.gracefullegs').attr("src", "images/Graceful_legs_blue.png");
+        $('.gracefullegs').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefullegsclick=orange") {
+        $('.gracefullegs').attr("src", "images/Graceful_legs_orange.png");
+        $('.gracefullegs').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefullegsclick=red") {
+        $('.gracefullegs').attr("src", "images/Graceful_legs_red.png");
+        $('.gracefullegs').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefullegsclick=green") {
+        $('.gracefullegs').attr("src", "images/Graceful_legs_green.png");
+        $('.gracefullegs').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefulbootsclick=true") {
+        $('.gracefulboots').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefulbootsclick=purple") {
+        $('.gracefulboots').attr("src", "images/Graceful_boots_purple.png");
+        $('.gracefulboots').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefulbootsclick=blue") {
+        $('.gracefulboots').attr("src", "images/Graceful_boots_blue.png");
+        $('.gracefulboots').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefulbootsclick=orange") {
+        $('.gracefulboots').attr("src", "images/Graceful_boots_orange.png");
+        $('.gracefulboots').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefulbootsclick=red") {
+        $('.gracefulboots').attr("src", "images/Graceful_boots_red.png");
+        $('.gracefulboots').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gracefulbootsclick=green") {
+        $('.gracefulboots').attr("src", "images/Graceful_boots_green.png");
+        $('.gracefulboots').css('opacity', '1');
+      }
    	}
 }
 
@@ -314,11 +429,225 @@ var main = function() {
           $(this).attr("src", "images/Graceful_hood.png");
           document.cookie = "gracefulhoodclick=false;" + expires + ";";
       }
-    }
-        else {
+    } else {
           $(this).animate({'opacity':1}, 175);
           document.cookie = "gracefulhoodclick=true;" + expires + ";";
-        }
+    }
+  });
+
+  $('.gracefulcape').click(function(){
+    if ($(this).css('opacity') == '1') {
+      if ($(this).attr("src") == "images/Graceful_cape.png") {
+          $(this).fadeOut("fast", function() {
+            $(this).attr("src", "images/Graceful_cape_purple.png");
+            $(this).fadeIn("fast");
+          });
+          document.cookie = "gracefulcapeclick=purple;" + expires + ";";
+      } else if ($(this).attr("src") == "images/Graceful_cape_purple.png") {
+          $(this).fadeOut("fast", function() {
+            $(this).attr("src", "images/Graceful_cape_blue.png");
+            $(this).fadeIn("fast");
+          });
+          document.cookie = "gracefulcapeclick=blue;" + expires + ";";
+      } else if ($(this).attr("src") == "images/Graceful_cape_blue.png") {
+          $(this).fadeOut("fast", function() {
+            $(this).attr("src", "images/Graceful_cape_orange.png");
+            $(this).fadeIn("fast");
+          });
+          document.cookie = "gracefulcapeclick=orange;" + expires + ";";
+      } else if ($(this).attr("src") == "images/Graceful_cape_orange.png") {
+          $(this).fadeOut("fast", function() {
+            $(this).attr("src", "images/Graceful_cape_red.png");
+            $(this).fadeIn("fast");
+          });
+          document.cookie = "gracefulcapeclick=red;" + expires + ";";
+      } else if ($(this).attr("src") == "images/Graceful_cape_red.png") {
+          $(this).fadeOut("fast", function() {
+            $(this).attr("src", "images/Graceful_cape_green.png");
+            $(this).fadeIn("fast");
+          });
+          document.cookie = "gracefulcapeclick=green;" + expires + ";";
+      } else {
+          $(this).animate({'opacity':0.4}, 175);
+          $(this).attr("src", "images/Graceful_cape.png");
+          document.cookie = "gracefulcapeclick=false;" + expires + ";";
+      }
+    } else {
+          $(this).animate({'opacity':1}, 175);
+          document.cookie = "gracefulcapeclick=true;" + expires + ";";
+    }
+  });
+
+  $('.gracefultop').click(function(){
+    if ($(this).css('opacity') == '1') {
+      if ($(this).attr("src") == "images/Graceful_top.png") {
+          $(this).fadeOut("fast", function() {
+            $(this).attr("src", "images/Graceful_top_purple.png");
+            $(this).fadeIn("fast");
+          });
+          document.cookie = "gracefultopclick=purple;" + expires + ";";
+      } else if ($(this).attr("src") == "images/Graceful_top_purple.png") {
+          $(this).fadeOut("fast", function() {
+            $(this).attr("src", "images/Graceful_top_blue.png");
+            $(this).fadeIn("fast");
+          });
+          document.cookie = "gracefultopclick=blue;" + expires + ";";
+      } else if ($(this).attr("src") == "images/Graceful_top_blue.png") {
+          $(this).fadeOut("fast", function() {
+            $(this).attr("src", "images/Graceful_top_orange.png");
+            $(this).fadeIn("fast");
+          });
+          document.cookie = "gracefultopclick=orange;" + expires + ";";
+      } else if ($(this).attr("src") == "images/Graceful_top_orange.png") {
+          $(this).fadeOut("fast", function() {
+            $(this).attr("src", "images/Graceful_top_red.png");
+            $(this).fadeIn("fast");
+          });
+          document.cookie = "gracefultopclick=red;" + expires + ";";
+      } else if ($(this).attr("src") == "images/Graceful_top_red.png") {
+          $(this).fadeOut("fast", function() {
+            $(this).attr("src", "images/Graceful_top_green.png");
+            $(this).fadeIn("fast");
+          });
+          document.cookie = "gracefultopclick=green;" + expires + ";";
+      } else {
+          $(this).animate({'opacity':0.4}, 175);
+          $(this).attr("src", "images/Graceful_top.png");
+          document.cookie = "gracefultopclick=false;" + expires + ";";
+      }
+    } else {
+          $(this).animate({'opacity':1}, 175);
+          document.cookie = "gracefultopclick=true;" + expires + ";";
+    }
+  });
+
+  $('.gracefulgloves').click(function(){
+    if ($(this).css('opacity') == '1') {
+      if ($(this).attr("src") == "images/Graceful_gloves.png") {
+          $(this).fadeOut("fast", function() {
+            $(this).attr("src", "images/Graceful_gloves_purple.png");
+            $(this).fadeIn("fast");
+          });
+          document.cookie = "gracefulglovesclick=purple;" + expires + ";";
+      } else if ($(this).attr("src") == "images/Graceful_gloves_purple.png") {
+          $(this).fadeOut("fast", function() {
+            $(this).attr("src", "images/Graceful_gloves_blue.png");
+            $(this).fadeIn("fast");
+          });
+          document.cookie = "gracefulglovesclick=blue;" + expires + ";";
+      } else if ($(this).attr("src") == "images/Graceful_gloves_blue.png") {
+          $(this).fadeOut("fast", function() {
+            $(this).attr("src", "images/Graceful_gloves_orange.png");
+            $(this).fadeIn("fast");
+          });
+          document.cookie = "gracefulglovesclick=orange;" + expires + ";";
+      } else if ($(this).attr("src") == "images/Graceful_gloves_orange.png") {
+          $(this).fadeOut("fast", function() {
+            $(this).attr("src", "images/Graceful_gloves_red.png");
+            $(this).fadeIn("fast");
+          });
+          document.cookie = "gracefulglovesclick=red;" + expires + ";";
+      } else if ($(this).attr("src") == "images/Graceful_gloves_red.png") {
+          $(this).fadeOut("fast", function() {
+            $(this).attr("src", "images/Graceful_gloves_green.png");
+            $(this).fadeIn("fast");
+          });
+          document.cookie = "gracefulglovesclick=green;" + expires + ";";
+      } else {
+          $(this).animate({'opacity':0.4}, 175);
+          $(this).attr("src", "images/Graceful_gloves.png");
+          document.cookie = "gracefulglovesclick=false;" + expires + ";";
+      }
+    } else {
+          $(this).animate({'opacity':1}, 175);
+          document.cookie = "gracefulglovesclick=true;" + expires + ";";
+    }
+  });
+
+  $('.gracefullegs').click(function(){
+    if ($(this).css('opacity') == '1') {
+      if ($(this).attr("src") == "images/Graceful_legs.png") {
+          $(this).fadeOut("fast", function() {
+            $(this).attr("src", "images/Graceful_legs_purple.png");
+            $(this).fadeIn("fast");
+          });
+          document.cookie = "gracefullegsclick=purple;" + expires + ";";
+      } else if ($(this).attr("src") == "images/Graceful_legs_purple.png") {
+          $(this).fadeOut("fast", function() {
+            $(this).attr("src", "images/Graceful_legs_blue.png");
+            $(this).fadeIn("fast");
+          });
+          document.cookie = "gracefullegsclick=blue;" + expires + ";";
+      } else if ($(this).attr("src") == "images/Graceful_legs_blue.png") {
+          $(this).fadeOut("fast", function() {
+            $(this).attr("src", "images/Graceful_legs_orange.png");
+            $(this).fadeIn("fast");
+          });
+          document.cookie = "gracefullegsclick=orange;" + expires + ";";
+      } else if ($(this).attr("src") == "images/Graceful_legs_orange.png") {
+          $(this).fadeOut("fast", function() {
+            $(this).attr("src", "images/Graceful_legs_red.png");
+            $(this).fadeIn("fast");
+          });
+          document.cookie = "gracefullegsclick=red;" + expires + ";";
+      } else if ($(this).attr("src") == "images/Graceful_legs_red.png") {
+          $(this).fadeOut("fast", function() {
+            $(this).attr("src", "images/Graceful_legs_green.png");
+            $(this).fadeIn("fast");
+          });
+          document.cookie = "gracefullegsclick=green;" + expires + ";";
+      } else {
+          $(this).animate({'opacity':0.4}, 175);
+          $(this).attr("src", "images/Graceful_legs.png");
+          document.cookie = "gracefullegsclick=false;" + expires + ";";
+      }
+    } else {
+          $(this).animate({'opacity':1}, 175);
+          document.cookie = "gracefullegsclick=true;" + expires + ";";
+    }
+  });
+
+$('.gracefulboots').click(function(){
+    if ($(this).css('opacity') == '1') {
+      if ($(this).attr("src") == "images/Graceful_boots.png") {
+          $(this).fadeOut("fast", function() {
+            $(this).attr("src", "images/Graceful_boots_purple.png");
+            $(this).fadeIn("fast");
+          });
+          document.cookie = "gracefulbootsclick=purple;" + expires + ";";
+      } else if ($(this).attr("src") == "images/Graceful_boots_purple.png") {
+          $(this).fadeOut("fast", function() {
+            $(this).attr("src", "images/Graceful_boots_blue.png");
+            $(this).fadeIn("fast");
+          });
+          document.cookie = "gracefulbootsclick=blue;" + expires + ";";
+      } else if ($(this).attr("src") == "images/Graceful_boots_blue.png") {
+          $(this).fadeOut("fast", function() {
+            $(this).attr("src", "images/Graceful_boots_orange.png");
+            $(this).fadeIn("fast");
+          });
+          document.cookie = "gracefulbootsclick=orange;" + expires + ";";
+      } else if ($(this).attr("src") == "images/Graceful_boots_orange.png") {
+          $(this).fadeOut("fast", function() {
+            $(this).attr("src", "images/Graceful_boots_red.png");
+            $(this).fadeIn("fast");
+          });
+          document.cookie = "gracefulbootsclick=red;" + expires + ";";
+      } else if ($(this).attr("src") == "images/Graceful_boots_red.png") {
+          $(this).fadeOut("fast", function() {
+            $(this).attr("src", "images/Graceful_boots_green.png");
+            $(this).fadeIn("fast");
+          });
+          document.cookie = "gracefulbootsclick=green;" + expires + ";";
+      } else {
+          $(this).animate({'opacity':0.4}, 175);
+          $(this).attr("src", "images/Graceful_boots.png");
+          document.cookie = "gracefulbootsclick=false;" + expires + ";";
+      }
+    } else {
+          $(this).animate({'opacity':1}, 175);
+          document.cookie = "gracefulbootsclick=true;" + expires + ";";
+    }
   });
 
 }
