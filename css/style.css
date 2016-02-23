@@ -12,6 +12,10 @@ h1 {
 	color: #fefefe !important;
 }
 
+.row {
+	padding-bottom: 3%;
+}
+
 .jumbotron  {
 	background-color: #2b8eaa;
 }
