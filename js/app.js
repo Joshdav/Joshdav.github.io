@@ -304,6 +304,170 @@ window.onload = function() {
       if (cookiearr[i].trim() == "zamorakianspearclick=true") {
         $('.zamorakianspear').css('opacity', '1');
       }
+      if (cookiearr[i].trim() == "staffofthedeadclick=true") {
+        $('.staffofthedead').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "steambattlestaffclick=true") {
+        $('.steambattlestaff').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "saradomingodswordclick=true") {
+        $('.saradomingodsword').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "saradominswordclick=true") {
+        $('.saradominsword').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "armadylcrossbowclick=true") {
+        $('.armadylcrossbow').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "saradominslightclick=true") {
+        $('.saradominslight').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "armadylgodswordclick=true") {
+        $('.armadylgodswordclick').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "armadylhelmetclick=true") {
+        $('.armadylhelmet').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "armadylchestplateclick=true") {
+        $('.armadylchestplate').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "armadylchainskirtclick=true") {
+        $('.armadylchainskirt').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "elysianclick=true") {
+        $('.elysian').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "arcaneclick=true") {
+        $('.arcane').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "spectralclick=true") {
+        $('.spectral').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "odiumwardclick=true") {
+        $('.odiumward').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "maledictionwardclick=true") {
+        $('.maledictionward').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "dragonfireshieldclick=true") {
+        $('.dragonfireshield').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "infinityhatclick=true") {
+        $('.infinityhat').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "infinitytopclick=true") {
+        $('.infinitytop').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "infinitybottomsclick=true") {
+        $('.infinitybottoms').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "infinityglovesclick=true") {
+        $('.infinitygloves').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "masterwandclick=true") {
+        $('.masterwand').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "magesbookclick=true") {
+        $('.magesbook').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "bonestopeachesclick=true") {
+        $('.bonestopeaches').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "thirdamagehatclick=true") {
+        $('.thirdamagehat').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "thirdarobetopclick=true") {
+        $('.thirdarobetop').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "thirdarobeclick=true") {
+        $('.thirdarobe').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "thirdaamuletclick=true") {
+        $('.thirdaamulet').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "thirdawandclick=true") {
+        $('.thirdawand').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "thirdarangecoifclick=true") {
+        $('.thirdarangecoif').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "thirdarangetopclick=true") {
+        $('.thirdarangetop').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "thirdarangelegsclick=true") {
+        $('.thirdarangelegs').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "thirdarangevambracesclick=true") {
+        $('.thirdarangevambraces').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "thirdabowclick=true") {
+        $('.thirdabow').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "thirdafullhelmetclick=true") {
+        $('.thirdafullhelmet').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "thirdaplatebodyclick=true") {
+        $('.thirdaplatebody').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "thirdaplatelegsclick=true") {
+        $('.thirdaplatelegs').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "thirdakiteshieldclick=true") {
+        $('.thirdakiteshield').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "thirdalongswordclick=true") {
+        $('.thirdalongsword').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gildedfullhelmclick=true") {
+        $('.gildedfullhelm').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gildedplatebodyclick=true") {
+        $('.gildedplatebody').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gildedplatelegsclick=true") {
+        $('.gildedplatelegs').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gildedplateskirtclick=true") {
+        $('.gildedplateskirt').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gildedscimitarclick=true") {
+        $('.gildedscimitar').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gildedbootsclick=true") {
+        $('.gildedboots').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gildedkiteshieldclick=true") {
+        $('.gildedkiteshield').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "thirdacloakclick=true") {
+        $('.thirdacloak').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "lavadragonmaskclick=true") {
+        $('.lavadragonmask').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "furyornamentkitclick=true") {
+        $('.furyornamentkit').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "darkinfinitycolourkitclick=true") {
+        $('.darkinfinitycolourkit').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "lightinfinitycolourkitclick=true") {
+        $('.lightinfinitycolourkit').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "dragonchainbodyornamentkitclick=true") {
+        $('.dragonchainbodyornamentkit').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "dragonfullhelmornamentkitclick=true") {
+        $('.dragonfullhelmornamentkit').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "dragonplateskirtornamentkitclick=true") {
+        $('.dragonplateskirtornamentkit').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "dragonsqshieldornamentkitclick=true") {
+        $('.dragonsqshieldornamentkit').css('opacity', '1');
+      }
+
+
 
 
       if (cookiearr[i].trim() == "gracefulhoodclick=true") {
@@ -851,6 +1015,222 @@ var main = function() {
   });
 
   $('.zamorakianspear').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.staffofthedead').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.steambattlestaff').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.saradomingodsword').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.saradominsword').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.armadylcrossbow').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.saradominslight').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.armadylgodsword').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.armadylhelmet').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.armadylchestplate').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.armadylchainskirt').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.elysian').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.arcane').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.spectral').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.odiumward').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.maledictionward').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.dragonfireshield').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.infinityhat').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.infinitytop').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.infinitybottoms').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.infinitygloves').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.masterwand').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.magesbook').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.bonestopeaches').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.thirdamagehat').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.thirdarobetop').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.thirdarobe').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.thirdaamulet').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.thirdawand').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.thirdarangecoif').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.thirdarangetop').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.thirdarangelegs').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.thirdarangevambraces').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.thirdabow').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.thirdafullhelmet').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.thirdaplatebody').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.thirdaplatelegs').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.thirdakiteshield').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.thirdalongsword').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.gildedfullhelm').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.gildedplatebody').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.gildedplatelegs').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.gildedplateskirt').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.gildedscimitar').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.gildedboots').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.gildedkiteshield').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.thirdacloak').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.lavadragonmask').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.furyornamentkit').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.darkinfinitycolourkit').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.lightinfinitycolourkit').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.dragonchainbodyornamentkit').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.dragonfullhelmornamentkit').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.dragonplateskirtornamentkit').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.dragonsqshieldornamentkit').click(function() {
     transparency($(this), expires);
   });
 
