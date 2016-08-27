@@ -466,6 +466,160 @@ window.onload = function() {
       if (cookiearr[i].trim() == "dragonsqshieldornamentkitclick=true") {
         $('.dragonsqshieldornamentkit').css('opacity', '1');
       }
+      if (cookiearr[i].trim() == "chaoseleclick=true") {
+        $('.chaosele').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "babymoleclick=true") {
+        $('.babymole').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "kbdclick=true") {
+        $('.kbd').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "snakelingclick=true") {
+        $('.snakeling').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "rexclick=true") {
+        $('.rex').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "primeclick=true") {
+        $('.prime').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "supremeclick=true") {
+        $('.supreme').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "kqclick=true") {
+        $('.kq').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "zilyanaclick=true") {
+        $('.zilyana').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "graardorclick=true") {
+        $('.graardor').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "krilclick=true") {
+        $('.kril').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "kreeclick=true") {
+        $('.kree').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "abyssalorphanclick=true") {
+        $('.abyssalorphan').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "krakenclick=true") {
+        $('.kraken').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "hellpuppyclick=true") {
+        $('.hellpuppy').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "smokedevilclick=true") {
+        $('.smokedevil').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "spiderlingclick=true") {
+        $('.spiderling').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "scorpiaoffspringclick=true") {
+        $('.scorpiaoffspring').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "callistocubclick=true") {
+        $('.callistocub').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "vetionjrclick=true") {
+        $('.vetionjr').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "jadclick=true") {
+        $('.jad').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "penancequeenclick=true") {
+        $('.penancequeen').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "darkcoreclick=true") {
+        $('.darkcore').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "chompychickclick=true") {
+        $('.chompychick').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "rockgolemclick=true") {
+        $('.rockgolem').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "heronclick=true") {
+        $('.heron').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "beaverclick=true") {
+        $('.beaver').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "chinchompaclick=true") {
+        $('.chinchompa').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "attackclick=true") {
+        $('.attack').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "strengthclick=true") {
+        $('.strength').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "defenceclick=true") {
+        $('.defence').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "hitpointsclick=true") {
+        $('.hitpoints').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "rangeclick=true") {
+        $('.range').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "magicclick=true") {
+        $('.magic').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "prayerclick=true") {
+        $('.prayer').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "slayerclick=true") {
+        $('.slayer').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "runecraftingclick=true") {
+        $('.runecrafting').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "constructionclick=true") {
+        $('.construction').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "agilityclick=true") {
+        $('.agility').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "herbloreclick=true") {
+        $('.herblore').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "thievingclick=true") {
+        $('.thieving').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "craftingclick=true") {
+        $('.crafting').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "fletchingclick=true") {
+        $('.fletching').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "hunterclick=true") {
+        $('.hunter').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "miningclick=true") {
+        $('.mining').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "smithingclick=true") {
+        $('.smithing').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "fishingclick=true") {
+        $('.fishing').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "cookingclick=true") {
+        $('.cooking').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "woodcuttingclick=true") {
+        $('.woodcutting').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "firemakingclick=true") {
+        $('.firemaking').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "farmingclick=true") {
+        $('.farming').css('opacity', '1');
+      }
+
 
 
 
@@ -1231,6 +1385,222 @@ var main = function() {
   });
 
   $('.dragonsqshieldornamentkit').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.chaosele').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.babymole').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.kbd').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.babymole').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.snakeling').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.rex').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.supreme').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.prime').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.kq').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.zilyana').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.graardor').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.kril').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.kree').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.abyssalorphan').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.kraken').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.hellpuppy').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.smokedevil').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.spiderling').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.scorpiaoffspring').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.callistocub').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.vetionjr').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.jad').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.vetionjr').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.penancequeen').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.darkcore').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.chompychick').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.rockgolem').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.heron').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.beaver').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.chinchompa').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.attack').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.strength').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.defence').click(function() {
+      transparency($(this), expires);
+  });
+
+  $('.hitpoints').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.range').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.magic').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.prayer').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.slayer').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.runecrafting').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.construction').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.agility').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.herblore').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.thieving').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.crafting').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.fletching').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.hunter').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.runecrafting').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.mining').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.smithing').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.fishing').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.cooking').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.woodcutting').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.firemaking').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.farming').click(function() {
     transparency($(this), expires);
   });
 

@@ -31,32 +31,32 @@ h1 {
 
 .firecape {
 	opacity: 0.4;
-	padding-left:3%;
-	padding-right:3%;
+	padding-left:0.85%;
+	padding-right:0.85%;
 }
 
 .questcape {
 	opacity: 0.4;
-	padding-left:3%;
-	padding-right:3%;
+	padding-left:0.85%;
+	padding-right:0.85%;
 }
 
 .achievementcape {
 	opacity: 0.4;
-	padding-left:3%;
-	padding-right:3%;
+	padding-left:0.85%;
+	padding-right:0.85%;
 }
 
 .musiccape {
 	opacity: 0.4;
-	padding-left:3%;
-	padding-right:3%;
+	padding-left:0.85%;
+	padding-right:0.85%;
 }
 
 .maxcape {
 	opacity: 0.4;
-	padding-left:3%;
-	padding-right:3%;
+	padding-left:0.85%;
+	padding-right:0.85%;
 }
 
 .dragonfullhelm {
@@ -1135,4 +1135,310 @@ h1 {
 	padding-left:3%;
 	padding-right:3%;
 	padding-bottom:2%;
+}
+
+.chaosele {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.babymole {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.kbd {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.snakeling {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.rex {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.supreme {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.prime {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.kq {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.zilyana {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.graardor {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.kril {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.kree {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.abyssalorphan {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.kraken {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.hellhound {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.smokedevil {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.spiderling {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.scorpiaoffspring {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.callistocub {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.vetionjr {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.jad {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.penancequeen {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.darkcore {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.chompychick {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.rockgolem {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.heron {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.beaver {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.chinchompa {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.attack {
+	opacity: 0.4;
+	padding-left:0.8%;
+	padding-right:0.8%;
+}
+
+.strength {
+	opacity: 0.4;
+	padding-left:0.8%;
+	padding-right:0.8%;
+}
+
+.defence {
+	opacity: 0.4;
+	padding-left:0.8%;
+	padding-right:0.8%;
+}
+
+.hitpoints {
+	opacity: 0.4;
+	padding-left:0.8%;
+	padding-right:0.8%;
+}
+
+.range {
+	opacity: 0.4;
+	padding-left:0.8%;
+	padding-right:0.8%;
+}
+
+.magic {
+	opacity: 0.4;
+	padding-left:0.8%;
+	padding-right:0.8%;
+}
+
+.prayer {
+	opacity: 0.4;
+	padding-left:0.8%;
+	padding-right:0.8%;
+}
+
+.slayer {
+	opacity: 0.4;
+	padding-left:0.8%;
+	padding-right:0.8%;
+}
+
+.runecrafting {
+	opacity: 0.4;
+	padding-left:0.8%;
+	padding-right:0.8%;
+}
+
+.construction {
+	opacity: 0.4;
+	padding-left:0.8%;
+	padding-right:0.8%;
+}
+
+.agility {
+	opacity: 0.4;
+	padding-left:0.8%;
+	padding-right:0.8%;
+}
+
+.herblore {
+	opacity: 0.4;
+	padding-left:0.8%;
+	padding-right:0.8%;
+}
+
+.thieving {
+	opacity: 0.4;
+	padding-left:0.8%;
+	padding-right:0.8%;
+}
+
+.crafting {
+	opacity: 0.4;
+	padding-left:0.8%;
+	padding-right:0.8%;
+}
+
+.fletching {
+	opacity: 0.4;
+	padding-left:0.85%;
+	padding-right:0.85%;
+}
+
+.hunter {
+	opacity: 0.4;
+	padding-left:0.85%;
+	padding-right:0.85%;
+}
+
+.mining {
+	opacity: 0.4;
+	padding-left:0.85%;
+	padding-right:0.85%;
+}
+
+.smithing {
+	opacity: 0.4;
+	padding-left:0.85%;
+	padding-right:0.85%;
+}
+
+.fishing {
+	opacity: 0.4;
+	padding-left:0.85%;
+	padding-right:0.85%;
+}
+
+.cooking {
+	opacity: 0.4;
+	padding-left:0.85%;
+	padding-right:0.85%;
+}
+
+.woodcutting {
+	opacity: 0.4;
+	padding-left:0.85%;
+	padding-right:0.85%;
+}
+
+.firemaking {
+	opacity: 0.4;
+	padding-left:0.85%;
+	padding-right:0.85%;
+}
+
+.farming {
+	opacity: 0.4;
+	padding-left:0.85%;
+	padding-right:0.85%;
 }
