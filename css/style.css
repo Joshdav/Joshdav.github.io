@@ -12,12 +12,21 @@ h1 {
 	color: #fefefe !important;
 }
 
+h2 {
+	font-family: "Trebuchet MS", Geneva, sans-serif;
+	font-size: 2rem;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	color: #fefefe !important;
+}
+
 .row {
 	padding-bottom: 3%;
 }
 
 .jumbotron  {
-	background-color: #2b8eaa;
+	background-color: #1282a2;
 }
 
 .capes {
@@ -1438,6 +1447,42 @@ h1 {
 }
 
 .farming {
+	opacity: 0.4;
+	padding-left:0.85%;
+	padding-right:0.85%;
+}
+
+.prospectorhelmet {
+	opacity: 0.4;
+	padding-left:0.85%;
+	padding-right:0.85%;
+}
+
+.prospectorjacket {
+	opacity: 0.4;
+	padding-left:0.85%;
+	padding-right:0.85%;
+}
+
+.prospectorlegs {
+	opacity: 0.4;
+	padding-left:0.85%;
+	padding-right:0.85%;
+}
+
+.prospectorboots {
+	opacity: 0.4;
+	padding-left:0.85%;
+	padding-right:0.85%;
+}
+
+.coalbag {
+	opacity: 0.4;
+	padding-left:0.85%;
+	padding-right:0.85%;
+}
+
+.gembag {
 	opacity: 0.4;
 	padding-left:0.85%;
 	padding-right:0.85%;

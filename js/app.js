@@ -619,6 +619,24 @@ window.onload = function() {
       if (cookiearr[i].trim() == "farmingclick=true") {
         $('.farming').css('opacity', '1');
       }
+      if (cookiearr[i].trim() == "prospectorhelmetclick=true") {
+        $('.prospectorhelmet').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "prospectorjacketclick=true") {
+        $('.prospectorjacket').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "prospectorlegsclick=true") {
+        $('.prospectorlegs').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "prospectorbootsclick=true") {
+        $('.prospectorboots').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "coalbagclick=true") {
+        $('.coalbag').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "gembagclick=true") {
+        $('.gembag').css('opacity', '1');
+      }
 
 
 
@@ -1601,6 +1619,30 @@ var main = function() {
   });
 
   $('.farming').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.prospectorhelmet').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.prospectorjacket').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.prospectorlegs').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.prospectorboots').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.coalbag').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.gembag').click(function() {
     transparency($(this), expires);
   });
 
