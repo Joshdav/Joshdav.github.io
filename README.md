@@ -1,2 +1,2 @@
 # Joshdav.github.io
-OSRS Goals
+OSRS tracker website, soon to be located at osrstracker.com
