@@ -4,8 +4,9 @@ body {
 }
 
 h1 {
-	font-family: "Trebuchet MS", Geneva, sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	font-size: 3rem;
+	font-weight: bolder;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -13,7 +14,7 @@ h1 {
 }
 
 h2 {
-	font-family: "Trebuchet MS", Geneva, sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	font-size: 2rem;
 	display: flex;
 	justify-content: center;
