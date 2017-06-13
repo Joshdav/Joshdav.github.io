@@ -637,6 +637,33 @@ window.onload = function() {
       if (cookiearr[i].trim() == "gembagclick=true") {
         $('.gembag').css('opacity', '1');
       }
+      if (cookiearr[i].trim() == "rekclick=true") {
+        $('.rek').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "olmletclick=true") {
+        $('.olmlet').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "skotosclick=true") {
+        $('.skotos').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "squirrelclick=true") {
+        $('.squirrel').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "tanglerootclick=true") {
+        $('.tangleroot').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "riftguardianclick=true") {
+        $('.riftguardian').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "rockyclick=true") {
+        $('.rocky').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "phoenixclick=true") {
+        $('.phoenix').css('opacity', '1');
+      }
+      if (cookiearr[i].trim() == "bloodhoundclick=true") {
+        $('.bloodhound').css('opacity', '1');
+      }
 
 
 
@@ -1643,6 +1670,42 @@ var main = function() {
   });
 
   $('.gembag').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.rek').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.olmlet').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.skotos').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.squirrel').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.tangleroot').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.riftguardian').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.rocky').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.phoenix').click(function() {
+    transparency($(this), expires);
+  });
+
+  $('.bloodhound').click(function() {
     transparency($(this), expires);
   });
 
