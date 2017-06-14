@@ -545,6 +545,34 @@ h2 {
 	padding-bottom:2%;
 }
 
+.blackslayerhelmet {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+	padding-bottom:2%;
+}
+
+.greenslayerhelmet {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+	padding-bottom:2%;
+}
+
+.redslayerhelmet {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+	padding-bottom:2%;
+}
+
+.purpleslayerhelmet {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+	padding-bottom:2%;
+}
+
 .amuletoffury {
 	opacity: 0.4;
 	padding-left:3%;
@@ -567,6 +595,34 @@ h2 {
 }
 
 .regenbracelet {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+	padding-bottom:2%;
+}
+
+.amuletoftorture {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+	padding-bottom:2%;
+}
+
+.necklaceofanguish {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+	padding-bottom:2%;
+}
+
+.ringofsuffering {
+	opacity: 0.4;
+	padding-left:3%;
+	padding-right:3%;
+	padding-bottom:2%;
+}
+
+.tormentedbracelet {
 	opacity: 0.4;
 	padding-left:3%;
 	padding-right:3%;
@@ -1538,6 +1594,324 @@ h2 {
 }
 
 .bloodhound {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.farmersstrawhat {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.farmersjacket {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.farmerstrousers {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.farmersboots {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.gricollerscan {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.seedbox {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.lumberjackhat {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.lumberjacktop {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.lumberjacklegs {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.lumberjackboots {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.anglerhat {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.anglertop {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.anglerwaders {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.anglerboots {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.pyromancerhood {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.pyromancergarb {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.pyromancerrobe {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.pyromancerboots {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.roguemask {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.roguetop {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.roguegloves {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.roguetrousers {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.rogueboots {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.imbuedheart {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.eternalgem {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.dustbattlestaff {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.mistbattlestaff {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.eternalglory {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.sceptre {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.tornprayerscroll {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.dexterousprayerscroll {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.arcaneprayerscroll {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.dragonsword {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.dragonharpoon {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.dragonthrownaxe {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.twistedbuckler {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.dragonhuntercrossbow {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.dinhsbulwark {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.ancestralhat {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.ancestralrobetop {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.ancestralrobebottom {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.kodaiinsignia {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.dragonclaws {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.eldermaul {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.twistedbow {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.largespade {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.cluelessscroll {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.uritransform {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.heavycasket {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.smoulderingstone {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.eternalcrystal {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.pegasiancrystal {
+	opacity: 0.4;
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+.primordialcrystal {
 	opacity: 0.4;
 	padding-left:0.5%;
 	padding-right:0.5%;
